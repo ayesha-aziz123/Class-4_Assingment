@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+ 
+  border-radius: 10px;
+  width: 100%;
+  padding: 6px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.btn {
+  background: linear-gradient(#ff17b9, #a407d9);
+  transition: all 0.2s ease;
+}
+.btn:hover {
+  scale: 1.03;
+  background: linear-gradient(#e8105f, #ac0be1);
+}
+.inputs {
+  border: none;
+  border: 1px solid rgb(164, 163, 167);
+}
+.inputs:focus{
+  border: #d11dde;
+  background-color: rgb(224, 227, 230);
+}
+span{
+  font-size: 13px;
+  font-weight: 800;
+
+}
